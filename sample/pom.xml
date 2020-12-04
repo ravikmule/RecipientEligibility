@@ -11,11 +11,19 @@
 	<name>sample</name>
 
     <properties>
+    	<mule.tools.version>1.7</mule.tools.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-
 		<app.runtime>4.3.0-20201013</app.runtime>
 		<mule.maven.plugin.version>3.3.5</mule.maven.plugin.version>
+		<anypoint.username>ravikanths</anypoint.username>
+ 		<anypoint.password>Bbm@2010</anypoint.password>
+ 		<cloundhub.env>Sandbox</cloundhub.env>
+ 		<anypoint.uri>https://anypoint.mulesoft.com</anypoint.uri>
+ 		<anypoint.businessGroup>turningpoint-global-solutions</anypoint.businessGroup>
+ 		<cloudhub.workerType>MICRO</cloudhub.workerType>
+ 		<cloudhub.workers>1</cloudhub.workers>
+ 		<maven.build.timestamp.format>yyMMddHHmmss</maven.build.timestamp.format>
 	</properties>
 
 	<build>
